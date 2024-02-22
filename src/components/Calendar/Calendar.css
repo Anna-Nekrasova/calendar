@@ -1,0 +1,25 @@
+.calendar {
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.header__before {
+
+}
+
+.header__month {
+
+}
+
+.header__after {
+
+}
+
+.table {
+    margin: auto;
+}

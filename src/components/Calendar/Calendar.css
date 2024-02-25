@@ -1,11 +1,16 @@
 .calendar {
     margin: auto;
+    width: 280px;
+}
+
+.title {
+    text-align: left;
 }
 
 .header {
     display: flex;
     margin: auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .header__before {

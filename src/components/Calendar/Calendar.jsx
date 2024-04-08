@@ -68,11 +68,11 @@ function Calendar() {
 
     return (
         <div className='calendar'>
-            <h1 className='title'>Календарь</h1>
+            <h1 className='title'>Календарь 2024</h1>
             <header className='header'>
-                <button className='header__before' onClick={handleMonthBeforeClick}>{'<'}</button>
+                <button className='header__button header__button_before' type='button' onClick={handleMonthBeforeClick}>{'<'}</button>
                 <p className='header__month'>{monthInTable}</p>
-                <button className='header__after' onClick={handleMonthAfterClick}>{'>'}</button>
+                <button className='header__button header__button_after' type='button' onClick={handleMonthAfterClick}>{'>'}</button>
             </header>
             <table className='table'>
                 <thead className='table__head'>
